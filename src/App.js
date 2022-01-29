@@ -1,7 +1,6 @@
 import './App.css';
 import QueenImg from './Images/queen.png'
 import useWebAnimations from "@wellyshen/use-web-animations";
-import BackGround from './Images/background.jpg'
 import Grass from './Images/grass.png'
 import Tree from './Images/tree3.png'
 import Fire from './Images/fire.gif'
@@ -122,7 +121,7 @@ function App() {
         <img id='grass1' width='25%' src={Grass} alt='animation' />
         <img id='grass2' width='25%' src={Grass} alt='animation' />
         <img id='grass3' width='25%' src={Grass} alt='animation' />
-        <img width='25%' src={Grass} />
+        <img width='25%' src={Grass} alt='animation' />
       </div>
 
 
