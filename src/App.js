@@ -119,24 +119,24 @@ function App() {
       </div>
       <div className='grass-div'>
 
-        <img id='grass1' width='25%' src={Grass} />
-        <img id='grass2' width='25%' src={Grass} />
-        <img id='grass3' width='25%' src={Grass} />
+        <img id='grass1' width='25%' src={Grass} alt='animation' />
+        <img id='grass2' width='25%' src={Grass} alt='animation' />
+        <img id='grass3' width='25%' src={Grass} alt='animation' />
         <img width='25%' src={Grass} />
       </div>
 
 
       <div ref={PoleAnimation.ref} className='animation'>
-        <img className='pole' src={Pole} />
-        <img className='pole2' src={Pole} />
+        <img className='pole' src={Pole} alt='animation' />
+        <img className='pole2' src={Pole} alt='animation' />
       </div>
       <div ref={TreeAnimation.ref} className='animation'>
-        <img className='tree' src={Tree} />
-        <img className='chess1' src={Chess1} />
+        <img className='tree' src={Tree} alt='animation' />
+        <img className='chess1' src={Chess1} alt='animation' />
       </div>
       <div ref={FireAnimation.ref} className='animation'>
-        <img className='fire' src={Fire} />
-        <img className='chess2' src={Chess2} />
+        <img className='fire' src={Fire} alt='animation' />
+        <img className='chess2' src={Chess2} alt='animation' />
       </div>
       <div className="wrapper">
         <div id="red-queen_and_alice">
@@ -146,7 +146,7 @@ function App() {
         </div>
       </div>
       <div ref={OldTreeAnimation.ref} className='animation'>
-        <img className='old-tree' src={OldTree} />
+        <img className='old-tree' src={OldTree} alt='animation' />
       </div>
 
     </div>
